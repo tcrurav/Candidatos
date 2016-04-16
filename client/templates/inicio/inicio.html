@@ -1,0 +1,24 @@
+<template name="inicio">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="jumbotron">
+					<p>Ejemplo de uso de Meteor para mostrar siempre la autentificación de usuario</p>
+					<p>Este ejemplo lo he desarrollado a partir del siguiente enlace: <a href="http://stackoverflow.com/questions/23542999/how-do-i-style-meteors-loginbutton-to-not-be-a-dropdown">how-do-i-style-meteors-loginbutton-to-not-be-a-dropdown</a></p>
+					<p>Si quieren seguir cambiándole los estilos siempre ayuda usar la opción de "inspeccionar" del Chrome ó el Firefox en el que verán todo y podrán ver todos los id y class para cambiarle los estilos como quieran.</p>
+					<p>He tenido que instalar los siguientes paquetes:</p>
+					<ul>
+						<li>accounts-password</li>
+						<li>d3js:d3</li>
+						<li>iron:router</li>
+						<li>mizzao:bootstrap-3</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				{{> graficaBarras}}
+				{{> fotos}}  
+			</div>
+		</div>
+	</div>
+</template>
