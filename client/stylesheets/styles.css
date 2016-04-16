@@ -50,5 +50,8 @@ span.text-content span {
 }
 #pieChart1 path:hover {
     fill: orange;
-  }
+}
+
+img {
+  cursor: pointer;
 }
